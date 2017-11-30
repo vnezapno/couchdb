@@ -195,7 +195,8 @@ def setup_configs(ctx):
             "fauxton_root": fauxton_root,
             "uuid": "fake_uuid_for_dev",
             "_default": "",
-            "compaction_daemon": "{}"
+            "compaction_daemon": "{}",
+            "clouseau_name": "clouseau%d@127.0.0.1" % ( idx+ 1)
         }
         write_config(ctx, node, env)
 
