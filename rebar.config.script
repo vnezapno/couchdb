@@ -64,7 +64,8 @@ DepDescs = [
 {ibrowse,          "ibrowse",          {tag, "CouchDB-4.0.1"}},
 {jiffy,            "jiffy",            {tag, "CouchDB-0.14.11-2"}},
 {mochiweb,         "mochiweb",         {tag, "CouchDB-2.12.0-1"}},
-{meck,             "meck",             {tag, "0.8.8"}}
+{meck,             "meck",             {tag, "0.8.8"}},
+{dreyfus,           {url, "https://github.com/cloudant-labs/dreyfus"}, "5f113370a1273dd1bdc981ca3ea98767bca0382d"}
 
 ],
 
